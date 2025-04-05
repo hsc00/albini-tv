@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Albini TV",
+    "slug": "Albini TV",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/albini-tv.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/albini-tv.jpg",
+        "backgroundColor": "#242f50"
+      },
+      "package": "com.interzonespiral.albini.tv"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/albini-tv.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
